@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMT Trip Form</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="bg" src="uni.avif" alt="Background Image">
+
+    <div class="container">
+        <h1>Welcome to UMT Trip Form</h1>
+
+        <p>Enter your details to confirm your participation in the trip</p>
+
+        <p class="msg">Thanks for submitting the form, see you in US</p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="number" name="age" id="age" placeholder="Enter your age">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter other information here"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+   <!-- INSERT INTO `login` (`s.no`, `Name`, `Age`, `Email`, `Phone_number`, `Msg`, `dt`) 
+    VALUES ('1', 'abubakar', '23', 'a@gmail.com', 'thisi si s', '', current_timestamp());-->
+</body>
+</html>
